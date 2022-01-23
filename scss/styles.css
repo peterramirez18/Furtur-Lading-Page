@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Prata', serif;
+  color: #FFFFFF;
+  background-color: black;
+}
+
+.container {
+  padding: 3.62rem 7.18rem;
+}
+
+.container .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .menu_logo h1 {
+  font: 2.26rem;
+  background: -webkit-linear-gradient(45deg, #7494c4, #daa9da);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container .menu_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5.18rem;
+}
+
+.container .menu_nav_item {
+  height: 1rem;
+  opacity: 0.7;
+}
+
+.container .menu_nav_item:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.container .menu_nav .active::after {
+  content: '';
+  width: 0.5rem;
+  height: 2px;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  opacity: 1;
+}
+
+.container .menu_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2.81rem;
+}
+
+.container .menu_icons_icon {
+  width: 2rem;
+  height: 2rem;
+  opacity: 0.7;
+}
+
+.container .menu_icons_icon:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.container .menu_icons_icon .line {
+  background-color: #FFFFFF;
+  height: 100%;
+  width: 2px;
+  opacity: 0.7;
+}
+
+.container .menu_icons_icon:nth-child(4) {
+  width: 2px !important;
+}
+
+.container .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 4.06rem;
+}
+
+.container .hero_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3rem;
+}
+
+.container .hero_info_subtitle {
+  color: #FFFFFF;
+  opacity: 0.7;
+  letter-spacing: 1.5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container .hero_info_title {
+  font-size: 4rem;
+}
+
+.container .hero_info_btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .hero_info_btns .btn-getstarted {
+  border: none;
+  background-color: #daa9da;
+  font-family: 'Prata', serif;
+  padding: 1.8rem 3.8rem;
+  font-size: 1rem;
+}
+
+.container .hero_info_btns .btn-watchvideo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.container .hero_info_btns .btn-watchvideo .iconplay {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1px;
+  border: dashed #FFFFFF 1px;
+}
+
+.container .hero_info_btns .btn-watchvideo .iconplay:hover {
+  cursor: pointer;
+  border: solid 1px #FFFFFF;
+}
+
+.container .hero_info_additional {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3.4rem;
+}
+
+.container .hero_info_additional .line {
+  background-color: #FFFFFF;
+  height: 100%;
+  width: 1.5px;
+  opacity: 0.7;
+}
+
+.container .hero_info_additional h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.container .hero_info_additional p {
+  opacity: 0.7;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.container .hero_img {
+  width: 40rem;
+  height: 42.18rem;
+  background-image: url("../src/spacejoy-unsplash.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=styles.css.map */
