@@ -143,6 +143,12 @@ body {
                     width: 2px !important;
                 }
             }
+
+            .menu_icons_icon:nth-child(5), .menu_icons_icon:nth-child(4){
+                @media (min-width: $breakpoint-medium) {
+                    display: none;
+                }
+            }
         }
     }
 

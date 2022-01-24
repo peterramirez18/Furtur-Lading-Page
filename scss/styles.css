@@ -1,5 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap");
+@media (min-width: 1098px) {
+  .hide-for-pc {
+    display: none;
+  }
+}
+
+@media (max-width: 1098px) {
+  .hide-for-table {
+    display: none;
+  }
+}
+
+@media (min-width: 728px) {
+  .hide-for-phone {
+    display: none;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -151,6 +169,12 @@ body {
 
 .container .menu_icons_icon:nth-child(4) {
   width: 2px !important;
+}
+
+@media (min-width: 1098px) {
+  .container .menu_icons .menu_icons_icon:nth-child(5), .container .menu_icons .menu_icons_icon:nth-child(4) {
+    display: none;
+  }
 }
 
 .container .menuopen .menu_nav {

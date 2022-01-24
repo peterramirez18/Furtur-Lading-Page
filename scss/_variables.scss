@@ -15,3 +15,23 @@ $breakpoint-medium: 1098px;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+
+
+
+.hide-for-pc{
+    @media (min-width: $breakpoint-medium) {
+        display: none;
+    }
+}
+
+.hide-for-table{
+    @media (max-width: $breakpoint-medium) {
+        display: none;
+    }
+}
+
+.hide-for-phone{
+    @media (min-width: $breakpoint-small) {
+        display: none;
+    }
+}
