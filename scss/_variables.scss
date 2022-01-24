@@ -3,11 +3,15 @@
 $White: #FFFFFF;
 $Blue: #7494c4;
 $Rosa: #daa9da;
+$GrayBlack: #1A1A1A;
+$Gray: #5F5F5F;
 
 // BreakPoints
 
-$breakpoint-small: 725px;
+$breakpoint-small: 728px;
 $breakpoint-medium: 1098px;
 
 
-@import url('https://fonts.googleapis.com/css2?family=Prata&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
